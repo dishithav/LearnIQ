@@ -1,0 +1,179 @@
+
+/* =====================================
+   LEARNIQ - COMPLETE WARM PASTEL THEME
+   ===================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+    --cream: #fff8ef;
+    --white: #ffffff;
+    --sage: #87977a;
+    --sage-dark: #65785b;
+    --peach: #f3c9b5;
+    --beige: #eee0d0;
+    --brown: #55483f;
+    --muted: #817266;
+}
+
+/* PAGE */
+html, body, .stApp,
+[data-testid="stAppViewContainer"],
+[data-testid="stMain"],
+[data-testid="stMainBlockContainer"] {
+    background: var(--cream) !important;
+    color: var(--brown) !important;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+/* REMOVE DEFAULT BLUE ACCENTS */
+[data-baseweb="tab-highlight"],
+[data-baseweb="tab-border"] {
+    background-color: var(--sage) !important;
+}
+
+[data-baseweb="tab"] {
+    color: var(--brown) !important;
+}
+
+/* SIDEBAR */
+[data-testid="stSidebar"],
+[data-testid="stSidebar"] > div {
+    background: var(--sage) !important;
+}
+
+[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+/* HEADINGS */
+h1, h2, h3, h4,
+[data-testid="stMarkdownContainer"] h1,
+[data-testid="stMarkdownContainer"] h2,
+[data-testid="stMarkdownContainer"] h3 {
+    color: var(--brown) !important;
+    font-weight: 800 !important;
+}
+
+/* NORMAL TEXT */
+[data-testid="stAppViewContainer"] p,
+[data-testid="stAppViewContainer"] label,
+[data-testid="stAppViewContainer"] li {
+    color: var(--brown) !important;
+}
+
+/* BANNER */
+.main-title {
+    color: var(--brown) !important;
+    font-size: 32px !important;
+    font-weight: 900 !important;
+}
+
+.sub-title {
+    color: var(--muted) !important;
+    font-size: 16px !important;
+}
+
+/* CARDS */
+[data-testid="stMetric"],
+[data-testid="stVerticalBlockBorderWrapper"] {
+    background: var(--white) !important;
+    border: 1px solid var(--beige) !important;
+    border-radius: 18px !important;
+}
+
+[data-testid="stMetric"] label,
+[data-testid="stMetric"] [data-testid="stMetricValue"] {
+    color: var(--brown) !important;
+}
+
+/* ALL MESSAGE BOXES */
+[data-testid="stAlert"],
+[data-testid="stAlert"] > div,
+[data-testid="stAlert"] [data-testid="stMarkdownContainer"] {
+    background: #fff0e5 !important;
+    background-color: #fff0e5 !important;
+    border-color: var(--peach) !important;
+    border-radius: 15px !important;
+    color: var(--brown) !important;
+    opacity: 1 !important;
+}
+
+[data-testid="stAlert"] *,
+[data-testid="stAlert"] p,
+[data-testid="stAlert"] span,
+[data-testid="stAlert"] div {
+    color: var(--brown) !important;
+    -webkit-text-fill-color: var(--brown) !important;
+    opacity: 1 !important;
+}
+
+/* BUTTONS */
+.stButton button,
+.stDownloadButton button,
+button[kind="primary"] {
+    background: var(--sage) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 13px !important;
+    font-weight: 800 !important;
+}
+
+.stButton button *,
+.stDownloadButton button * {
+    color: white !important;
+}
+
+.stButton button:hover,
+.stDownloadButton button:hover {
+    background: var(--sage-dark) !important;
+}
+
+/* INPUTS */
+.stTextInput input,
+.stTextArea textarea,
+[data-baseweb="select"] > div {
+    background: white !important;
+    color: var(--brown) !important;
+    border: 1px solid var(--beige) !important;
+    border-radius: 12px !important;
+}
+
+/* RADIO AND CHECKBOX */
+[data-testid="stRadio"] *,
+[data-testid="stCheckbox"] * {
+    color: var(--brown) !important;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: var(--sage) !important;
+}
+
+/* PROGRESS */
+[data-testid="stProgressBar"] > div > div {
+    background: var(--sage) !important;
+}
+
+/* TABLES */
+[data-testid="stDataFrame"] {
+    border: 1px solid var(--beige) !important;
+    border-radius: 14px !important;
+}
+
+/* LINKS */
+a {
+    color: var(--sage-dark) !important;
+}
+
+/* FOOTER */
+footer {
+    visibility: hidden;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 25px !important;
+    }
+}
