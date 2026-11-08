@@ -1,5 +1,11 @@
 # LearnIQ – Adaptive AI Learning Tutor
 
+## Live Website
+https://learniq2026.streamlit.app/
+
+## GitHub Repository
+https://github.com/dishithav/LearnIQ
+
 ## About the Project
 LearnIQ is an Adaptive AI Learning Tutor designed to make learning easier and more engaging. It helps students learn different subjects, take quizzes, track their progress, and understand their learning performance.
 
